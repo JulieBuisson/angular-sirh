@@ -1,0 +1,39 @@
+button:nth-of-type(odd){
+	border: 2px ridge darkcyan;
+	background-color: rgb(1, 65, 65);
+}
+
+button{
+	border: 2px ridge orange;
+	background-color: rgb(128, 87, 0);	
+	color: white;
+	width: 80px;
+	margin: 20px;
+	padding: 5px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+button:nth-of-type(odd):hover{
+	border: 3px ridge rgb(1, 185, 185);
+	background-color: rgb(1, 87, 87);
+}
+
+button:hover{
+	border: 3px ridge rgb(212, 168, 85);
+	background-color: rgb(160, 110, 1);	
+	color: white;
+	width: 85px;
+	transition-duration: 0.3s;
+}
+
+button:disabled{
+	border: 2px ridge rgb(236, 190, 104);
+	background-color: rgb(131, 108, 59);	
+	color: rgb(201, 201, 201);
+}
+
+button:nth-of-type(odd):disabled{
+	border: 2px ridge rgb(51, 131, 131);
+	background-color: rgb(32, 59, 59);
+}
